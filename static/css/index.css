@@ -1,6 +1,6 @@
 /*li{list-style:none;}*/
 /**新加微名片图标样式**/
-.ev_t_wei_ul li i{background:url(../image/wei_ico1.png) no-repeat;background-size: 24px 224px;}
+.ev_t_wei_ul li i{background:url(../image/wei_ico.png) no-repeat;background-size: 24px 224px;}
 .ev_t_wei_ul li .ev_t_wei_i1{background-position:0 2px;background-size:26px 224px;}
 .ev_t_wei_ul li .ev_t_wei_i2{background-position:0 -20px; }
 .ev_t_wei_ul li .ev_t_wei_i3{background-position:0 -43px; background-size: 26px 224px;}
@@ -12,7 +12,7 @@
 .ev_t_wei_ul li .ev_t_wei_i9{background-position:0 -178px; }
 .ev_t_wei_ul li .ev_t_wei_i10{background-position:0 -201px; }
 .ev_t_wei_ul .ev_t_wei_li em{word-break: break-all; table-layout: fixed; line-height: 22px; overflow: hidden;}
-.ev_t_wei_three .ev_t_wei_ul li i{background-image:url(../image/wei_ico1.png);}
+.ev_t_wei_three .ev_t_wei_ul li i{background-image:url(../image/wei_ico.png);}
 
 #back-to-top{width:100%;height:38px;overflow:hidden;position:fixed;right:20px;z-index:99999;bottom:45px;}
 .ev_t_runtop{max-width:768px;height:38px;overflow:hidden;margin:auto;position:relative;}

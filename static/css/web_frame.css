@@ -2496,7 +2496,7 @@ a{text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
 .Mo_Forum .ev_community_logo_text .ev_community_logo_div { overflow: hidden; }
 .Mo_Forum .ev_community_logo_text .ev_community_logo_div span { float: left; padding-left: 15px; margin-right: 15px; }
 .Mo_Forum .ev_community_logo_text .ev_community_logo_div .ev_span_1 { background: url(../image/text.png) no-repeat left; }
-.Mo_Forum .ev_community_logo_text .ev_community_logo_div .ev_span_2 { background: url(../image/user1.png) no-repeat left; }
+.Mo_Forum .ev_community_logo_text .ev_community_logo_div .ev_span_2 { background: url(../image/user2.png) no-repeat left; }
 .Mo_Forum .ev_community_logo_text .ev_sign_but { padding-top: 10px; }
 .Mo_Forum .ev_community_logo_text .ev_sign_but .sign_but { display: inline-block; float:left; width: 53px; height: 25px; background-image: url(../image/sign_but_bg.png); background-size: 53px 25px; background-repeat: no-repeat; padding-left: 0px; }
 .Mo_Forum .ev_community_nr { overflow: hidden; margin: 0 auto; }
@@ -2731,7 +2731,7 @@ a{text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
 .Mo_PinGroup h2{margin-bottom: 5px;}
 .MoBodyC .Mo_PinGroup h2 a{display: block; color:#555; font-size: 16px; line-height: 22px; height: 22px; overflow: hidden;}
 .Mo_PinGroup .PinOne .PinGroupBtn{position: relative; padding-right: 80px; font-size: 14px; overflow:hidden;}
-.Mo_PinGroup .PinGroupBtn strong{display: inline-block; line-height: 30px; font-weight: normal; padding-left: 25px; float: left; color: #888; background: url(../image/name1.png) no-repeat left center; background-size: 20px; margin-right: 10px;}
+.Mo_PinGroup .PinGroupBtn strong{display: inline-block; line-height: 30px; font-weight: normal; padding-left: 25px; float: left; color: #888; background: url(../image/name.png) no-repeat left center; background-size: 20px; margin-right: 10px;}
 .Mo_1017 .Mo_PinGroup .PinGroupBtn em{display: inline-block; line-height: 30px; float: left; color: #f00; margin-right: 10px;}
 .Mo_PinGroup .PinGroupBtn font{display: inline-block; line-height: 30px; float: left; color:#888; text-decoration: line-through;}
 .Mo_PinGroup .PinOne .PinGroupBtn a{position: absolute; display: inline-block; right:0; top:0; background-color: #f00; border-radius: 5px; color:#fff; width:80px; height: 30px; line-height: 30px; text-align: center; background-image: none;}
