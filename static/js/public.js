@@ -273,8 +273,12 @@ public.changeMo = function(o,tag){
                 var newData = $.parseJSON(data);
                 var timestamp = Date.parse(new Date());
                 if(newData.html){
-                    newData.html = newData.html.replace(/\\\'/g,'"');
-                    newData.html = newData.html.replace(/\\\'/g,'"');
+                    if(newData.show_style == 12){
+                        newData.html = newData.html.replace(/\\\'/g,"'");
+                    }else{
+                        newData.html = newData.html.replace(/\\\'/g,'"');
+                        newData.html = newData.html.replace(/\\\'/g,'"');
+                    }
                     if(newData.show_style == 58){
                         MoBodyC.html(newData.html);
                     }else{
