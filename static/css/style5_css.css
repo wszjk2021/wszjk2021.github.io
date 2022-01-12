@@ -1,0 +1,110 @@
+.max_frame{ min-width:320px; margin-bottom:0;_width: 320px;_overflow: hidden; min-height: 100%;}
+.min_frame{max-width: 640px;margin: auto;height: 100%;}
+.public_div{ position:relative; padding-left: 100px;}
+.frame_L{ width:110px; float:left; background-color:#f8f8f8;border-top:1px solid #e5e5e5; overflow: hidden; overflow-y: auto; position: absolute; top:0; left:0; bottom:0;padding-bottom:100px;}
+.max_class a em{ display:block; float:left; width:16px; height:21px; margin-right:5px;}
+.max_class a em img{ width:100%}
+.max_class a strong{ display:block; float:left; line-height:21px; height:21px; color:#555; font-size:14px;}
+
+.max_class{background-color:#f8f8f8;border-bottom:1px solid #e5e5e5;}
+.max_class_tit{display:block;line-height:21px;color:#555; font-size:14px; text-align:left;padding:10px;border-right:1px solid #e5e5e5;word-wrap: break-word;}
+.cur .max_class_tit{border-left:4px solid #0084FF; background-color: #fff; padding-left:5px; color:#0084ff;}
+.min_class{ display:none; background-color:#f8f8f8; border-right:1px solid #e5e5e5;}
+.min_class a{ display:block; font-size:13px;padding:10px;color:#777777;}
+.min_class .font_cur{color:#0084ff;}
+.frame_R{background:#FFF; overflow:hidden; overflow-y: auto; position: relative;}
+.show_min{ display:block}
+.three_class{ background-color:#fafafa; overflow:hidden; overflow-x:auto; border-bottom:1px solid #e5e5e5; }
+.three_class_a{ width:999px; overflow:hidden}
+.three_class_a a{ display:block;padding:10px; line-height:21px; font-size:14px; color:#555; float:left}
+.three_class_a .three_cur{color:#0084ff;}
+.title{ padding:10px; background-color:#fafafa;}
+.title span{ display:block; height:16px; overflow:hidden; border-left:2px solid #e5e5e5;padding-left:8px; color:#777777; font-size:14px;}
+.commodity{ margin-left:10px; padding:10px 10px 10px 0; overflow:hidden;border-bottom:1px solid #e5e5e5;}
+.commodity span{ display:block; width:55px; overflow:hidden; float:left; border-radius:5px; margin-right:5px;}
+.commodity span img{ width:100%}
+.commodity_R{overflow:hidden; position:relative;min-height:55px;}
+.commodity_R p{ display:block; height:16px;line-height:16px;font-size:14px; color:#333; margin-bottom:4px;}
+.commodity_R em{ display:block;min-height:14px;line-height:14px;font-size:12px; color:#999; margin-bottom:4px;}
+.commodity_R strong{ display:block; font-size:15px; color:#ff3030;}
+.add_int{ position:absolute; overflow:hidden; width:84px; height:25px;right:0px; bottom:0px;}
+.add_int a{ display:block; float:right; width:25px; height:25px; font-size: 22px; text-align:center; line-height:24px; background-color:#0084ff; color:#FFF; border-radius:50%; overflow:hidden}
+.add_int font{ display:block; margin:0 5px; float:right; font-size:14px; line-height:25px;}
+.add_int a:nth-child(3){ width:23px; height:23px; border:1px solid #cccccc; background-color:#FFF; color:#888888; line-height:20px;}
+.show_cur a:nth-child(3){ display:none}
+.show_cur font{ display:none}
+.bottom_foot{ width:100%; left:0; bottom:0; position:fixed; z-index:2;}
+.Full_cut{ width:100%; height:27px; line-height:27px; font-size:13px; color:#3b3b3b; background-color:#fffad8; border-top:1px solid #ffd7bd; text-align:center}
+.Settlement{ background-color:#3b3b3b; height:50px;}
+.Settlement_L{ width:74%; float:left;}
+.Settlement_L a{ display:block; float:left; position:relative; width:50px; height:50px; line-height: 55px; text-align: center; margin:-25px 10px 0 10px; border-radius: 5em; background-color: #222222; border:5px solid #3B3B3B;}
+.Settlement_L a span{color:#6C6C6C; font-size: 30px;}
+.Settlement_L a font{ display:none; position:absolute; border-radius:50%; background-color:#ff3c3c; color:#FFF; text-align:center; font-size:13px;height: 22px;top: -15px;right: -5px;line-height: 22px;min-width: 22px;}
+.Settlement_L p{ display:block; overflow:hidden;}
+.Settlement_L p em{ display:none; color:#FFF; font-size:16px; line-height:20px; margin-top:10px;}
+.Settlement_L p strong{display:block; line-height:60px; color:#999999; font-size:14px;}
+.Settlement_R{ display:block; overflow:hidden; background-color:#4f4f4f; line-height:50px;color:#999999; text-align:center; font-size:16px;}
+.cart_cur .Settlement_L a span{color:#0084FF;}
+.cart_cur .Settlement_L a font{ display:block}
+.cart_cur .Settlement_L p em{ display:block;}
+.cart_cur .Settlement_L p strong{ line-height:20px;}
+.cart_cur .Settlement_R{ background-color:#0084ff; color:#FFF}
+.bg_color2{ display:none; width:100%; left:0; top:0; bottom:0;position: fixed;}
+.bg_color2 p{ background:#000; opacity:0.5;max-width: 640px;margin: auto;height: 100%;}
+.commodity_detail{ display:none;width:280px;margin:0 auto; position: absolute;left:50%; margin-left:-140px;top:20px; border-radius:0px 0px 3px 3px; overflow:hidden; background-color:#FFF;border-radius:3px;}
+.commodity_detail span{background: #ececec; display:block; width:280px; height:280px; border-radius:3px 3px 0px 0px; overflow:hidden; float:left}
+.commodity_detail span img{ width:100%;}
+.commodity_text{padding:10px; background-color:#FFF}
+.commodity_tit{ width:100%;}
+.commodity_tit p{ display:block; overflow:hidden; margin-bottom:5px;}
+.commodity_tit p em{ display:block; float:left; width:204px; height:22px; font-size:14px;color:#333; line-height:22px;}
+.commodity_tit p a{ display:block; width:54px; line-height:20px; height:20px; border-radius:3px; text-align:center; border:1px solid #ff9900; color:#ff9900; font-size:14px; overflow:hidden;}
+.commodity_tit strong{ display:block; font-size:13px; color:#999999; margin-bottom:3px;}
+.commodity_mony{ width:100%; overflow:hidden}
+.commodity_mony font{ display:block; float:left; color:#ff3030; font-size:16px; line-height:26px;}
+.commodity_mony a{ display:block; float:right; background-color:#0084ff; color:#FFF; text-align:center; border-radius:25px;padding:5px 10px; font-size:14px;}
+
+.Specifications{ display:none; width:280px; border-radius:3px; background-color:#FFF; margin:0 auto; position:absolute;top:20px; left:50%; margin-left:-140px;}
+.Specifications span{ display:block;padding:10px; background-color:#fafafa; border-radius:3px 3px 0px 0px; overflow:hidden; font-size:14px; color:#333;}
+.Specifications_c{padding:0 10px; margin-bottom:10px; overflow:hidden}
+.Specifications_c p{ display:block;padding:10px 0;font-size:14px; color:#999;}
+.Specifications_c a{ display:block; float:left; margin:5px 2px; border:1px solid #ededed; border-radius:4px; font-size:14px; color:#666666;padding:5px 10px;}
+.Specifications_c .cur{border:1px solid #3190e8;}
+.Specifications_b{border-top:1px solid #ededed; overflow:hidden;padding:10px;}
+.Specifications_b em{ font-size:16px; color:#ff3030; float:left; display:block; line-height:26px;}
+.Specifications_b .choose_ok { display:block; float:right; background-color:#0084ff; color:#FFF; text-align:center; border-radius:25px;padding:5px 15px; font-size:14px;}
+.Open_div{ display:none; width:100%; background-color:#FFF; position:fixed; left:0; bottom:0;padding-bottom:77px;}
+.Open_tit{padding:10px; background-color:#f8f8f8; overflow:hidden}
+.Open_tit span{ display:block; float:left; height:22px; line-height:22px;font-size:14px; color:#666666;}
+.Open_tit a{ display:block; float:right; background:url(https://s.dlssyht.cn/images/WAP/products/del.png) no-repeat left center; line-height:22px; padding-left:27px; color:#888888; font-size:14px;}
+.Open_con{padding:10px;}
+.Open_list{overflow:hidden; border-bottom:1px solid #ededed;padding:10px 84px 10px 0; position: relative;}
+.Open_list span{ display:block; color:#333333; float: left; line-height:25px; font-size:14px; overflow: hidden;}
+.Open_list p{ display:block; float:right; color:#ff3030; height: 25px; line-height:25px; font-size:14px;padding-left:20px; overflow: hidden;}
+.add_int1{overflow:hidden; width:84px; height:25px; float:right; position: absolute; right:0; top:10px;}
+.add_int1 a{ display:block; float:right; width:25px; height:25px; text-align:center; line-height:22px; font-size: 22px; background-color:#0084ff; color:#FFF; border-radius:50%; overflow:hidden}
+.add_int1 font{ display:block; margin:0 5px; float:right; font-size:14px; line-height:25px;}
+.add_int1 a:nth-child(3){ width:23px; height:23px; border:1px solid #cccccc; background-color:#FFF; color:#888888; line-height:20px;}
+
+.cart_cur .cur_choose{background-color: rgb(153, 153, 153);}
+.disable_buy a{background-color:#999;}
+
+.yuan{text-align:center;}
+.yuan p{ display:inline-block; width:5px; height:5px; margin:0 5px; border-radius:50%; background:#CCC;}
+.yuan .cur{ background-color:#C00}
+.ev_t_product {position: relative; z-index: 2;}
+.bezierDom{position:absolute;width: 25px;height: 25px;background-color: #0084ff;border-radius: 50%;color:#fff; line-height: 25px; font-size:12px; font-family: Arial; z-index: 1000;}
+
+.new_add_prod{overflow: hidden;float: left;margin-left: 3px;}
+.new_add_prod a{display: block;float: left;width: 23px;height: 23px;color: #666;font-size: 16px;text-align: center;
+    line-height: 21px;border-radius: 50%;border: 1px solid #dbdbdb;}
+.new_add_prod input{line-height: 25px;border: 0;float: left;width: 40px;text-align: center;border-bottom: 1px solid #dbdbdb;margin: 0 5px;color: #666;font-size: 14px;}
+
+
+
+
+
+
+
+
+
