@@ -37,7 +37,7 @@
     var AGENT_ID        = '';
     var IS_NEWS_ARTICEL        = parseInt('0');
     var LANGUAGE_TYPE        = parseInt('0');
-    var is_wap_view     = parseInt(1);
+    var is_wap_view     = parseInt(0);
     var show_check     = parseInt(0);
             var use_wxchat_map = 0;
     </script>
@@ -66,9 +66,10 @@
 <link rel="stylesheet" type="text/css" href="static/css/iconfontNew.css">
 <!-- end -->
 <link type="text/css" rel="stylesheet" href="static/css/base_module_style.min.css">
-    <link type="text/css" rel="stylesheet" href="static/css/user_define_css-2161913_0_1641970399_1.css">
+    <link type="text/css" rel="stylesheet" href="static/css/user_define_css-2161913_0_1643437735_1.css">
 	<script type="text/javascript">
 	$(function(){
+					ajax_bigclass_list('7035249');
 			    $('.wrapper').navbarscroll();
 	    // 分类切换
 	    $(".classify-index").click(function(){
@@ -157,11 +158,42 @@
             </a>
                       </div>
   <!-- head end -->
-  </div>		<div style="text-align: center;padding:1rem 0;">
-      <img src="static/picture/no.png" style="width: 1.8rem;height: 1.8rem;">
-      <p style="margin-top:0.2rem;font-size: 0.24rem;color: #999;">您还没有添加任何内容~</p>
-    </div>
-		<input type="hidden" name="pro_cid" value="">
+  </div>		<div class="classify-cont">
+	  	  <div class="wrapper wrapper01" id="retr">
+			<div class="scroller">
+			  <ul class="clearfix">
+			  				    	<li class="cur"><a href="javascript:void(0)" class="this_font_color" onclick="get_big_class('25244426')">二手车</a></li>
+			    			    	<li><a href="javascript:void(0)" onclick="get_big_class('25244400')">拼多多</a></li>
+			    			  </ul>
+			</div>
+	  </div>
+	  	  	</div>
+	<div class='classify-tab' style="padding-top: 1.9rem">
+	  <div class="tab-list big_class_list" style="margin-top: 0.20rem">
+	  	  		<div class='category' style="top: 1.95rem">
+  		  		  	      <div class='category-left'>
+	      		        <div class="category-list at" alt="7035249" onclick="OpenSub(this)">产品分类1<div class='at-line this_color'></div></div>
+	        	        <div class="category-list " alt="7035250" onclick="OpenSub(this)">产品分类2<div class='at-line this_color'></div></div>
+	        	        <div class="category-list " alt="7035251" onclick="OpenSub(this)">产品分类3<div class='at-line this_color'></div></div>
+	        	        <div class="category-list " alt="7035252" onclick="OpenSub(this)">产品分类4<div class='at-line this_color'></div></div>
+	        	        <div class="category-list " alt="7035253" onclick="OpenSub(this)">产品分类5<div class='at-line this_color'></div></div>
+	        	        <div class="category-list " alt="7035254" onclick="OpenSub(this)">产品分类6<div class='at-line this_color'></div></div>
+	        	        <div style="margin-bottom: 40px;"></div>
+	      </div>
+	      <div class='category-right '>
+	        <div class="category-item show" id="sub_more">
+
+	        </div>
+	      </div>
+	      	    </div>
+	  </div>
+	  <div class="tab-list" style="display: none;">
+	  		    <!-- 品牌：普通 -->
+	    <div class='band-item' style='margin-top:.20rem'>
+	    		    </div>
+	  </div>
+	</div>
+		<input type="hidden" name="pro_cid" value="25244426">
 	<input type="hidden" name="old_big_id" value="0">
 	<script type="text/javascript" src="static/js/classify_style3_iscroll.js"></script>
 	<script type="text/javascript" src="static/js/classify_style3_navbarscroll.js"></script>
@@ -195,55 +227,55 @@
                 <menu class="toolBut q ">
                                                                                             <li id="toolTel" sorts="13" style=" width:100%;">
                                                                     <a href="tel:18654768051">
-                                                                <b class="icon" id="icon_121624">
-                                                                                                                <img src="static/picture/3953999_1522206039.png" width="20" height="20">
+                                                                <b class="icon" id="icon_146759">
+                                                                                                                <img src="static/picture/6467923_1531727515.png" width="20" height="20">
                                                                     </b>
-                                <strong>电话</strong>
+                                <strong>24小时客服</strong>
                                                                 </a>
                             </li>
                                                                                                 <li id="toolHome" sorts="12" style="display: none; width:100%;">
                                                                     <a id="index_link" href="wap_zhangjk999992.html">
-                                                                <b class="icon" id="icon_121623">
-                                                                                                                <img src="static/picture/3953984_1522206020.png" width="20" height="20">
+                                                                <b class="icon" id="icon_146758">
+                                                                                                                <img src="static/picture/6467911_1531727494.png" width="20" height="20">
                                                                     </b>
                                 <strong>首页</strong>
                                                                 </a>
                             </li>
                                                                                                 <li id="tootMessage" sorts="11" style="display: none; width:100%;">
                                                                     <a href="guest_book-zhangjk99999.html">
-                                                                <b class="icon" id="icon_121625">
-                                                                                                                <img src="static/picture/3954009_1522206052.png" width="20" height="20">
+                                                                <b class="icon" id="icon_146760">
+                                                                                                                <img src="static/picture/6467938_1531727535.png" width="20" height="20">
                                                                     </b>
                                 <strong>留言</strong>
                                                                 </a>
                             </li>
                                                                                                 <li id="toolMap" sorts="10" style="display: none; width:100%;">
                                                                     <a href="map-zhangjk99999.html">
-                                                                <b class="icon" id="icon_121626">
-                                                                                                                <img src="static/picture/3954022_1522206065.png" width="20" height="20">
+                                                                <b class="icon" id="icon_146761">
+                                                                                                                <img src="static/picture/6468058_1531727752.png" width="20" height="20">
                                                                     </b>
                                 <strong>位置</strong>
                                                                 </a>
                             </li>
                                                                                                 <li id="toolMember" sorts="9" style="display: none; width:100%;">
                                                                                                             <a href="denglu-zhangjk99999_1.html">
-                                                                                                    <b class="icon" id="icon_121627">
-                                                                                                                <img src="static/picture/3954041_1522206084.png" width="20" height="20">
+                                                                                                    <b class="icon" id="icon_146762">
+                                                                                                                <img src="static/picture/6468091_1531727795.png" width="20" height="20">
                                                                     </b>
                                 <strong>会员</strong>
                                                                 </a>
                             </li>
                                                                                                 <li id="toolTelMessage" sorts="8" style="display: none; width:100%;">
                                                                     <a href="javascript:window.open('sms:');">
-                                                                <b class="icon" id="icon_121628">
+                                                                <b class="icon" id="icon_146763">
                                                                                                                 <img src="static/picture/toolMessage_icon.png">
                                                                     </b>
                                 <strong>信息</strong>
                                                                 </a>
                             </li>
                                                                                                 <li id="toolQQ" sorts="7" style="display: none; width:100%;">
-                                                                    <a href="javascript:window.open('mqqwpa://im/chat?chat_type=wpa&uin=&version=1&src_type=web&web_src=oicqzone.com');">
-                                                                <b class="icon" id="icon_121629">
+                                                                    <a href="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes');">
+                                                                <b class="icon" id="icon_146764">
                                                                                                                 <img src="static/picture/toolQQ_icon.png">
                                                                     </b>
                                 <strong>QQ</strong>
@@ -251,7 +283,7 @@
                             </li>
                                                                                                 <li id="toolShoppingCar" sorts="6" style="display: none; width:100%;">
                                                                     <a href="sc_shopcar_add-zhangjk99999_1.html">
-                                                                <b class="icon" id="icon_121630">
+                                                                <b class="icon" id="icon_146765">
                                                                                                                 <img src="static/picture/toolShoppingCar_icon.png">
                                                                     </b>
                                 <strong>购物</strong>
@@ -259,7 +291,7 @@
                             </li>
                                                                                                 <li id="toolVoiceSearch" sorts="5" style="display: none; width:100%;">
                                                                     <a href="voicesearch-zhangjk99999_1.html" style="display: none;">
-                                                                <b class="icon" id="icon_121631">
+                                                                <b class="icon" id="icon_146766">
                                                                                                                 <img src="static/picture/toolVoiceSearch.png">
                                                                     </b>
                                 <strong>语音</strong>
@@ -267,7 +299,7 @@
                             </li>
                                                                                                 <li id="toolProClass" cur="" sorts="3" style="display: none; width:100%;">
                                                                     <a class="cur" href="">
-                                                                <b class="icon" id="icon_121632">
+                                                                <b class="icon" id="icon_146767">
                                                                                                                 <img src="static/picture/toolProductClass.png">
                                                                     </b>
                                 <strong>分类</strong>
@@ -277,14 +309,7 @@
             </div>
                 <span class="backTop" id="back_top"><em></em></span>
         <!--微名片详细页不显示导航-->
-                        <script type="text/javascript">
-                $(function(){
-                    if($(".main").length){
-                        $(".main").css("min-height",$(window).height());
-                    }
-                })
-            </script>
-                <div class="Nzz" id="Nzz"></div>
+                    <div class="Nzz" id="Nzz"></div>
     <script language="javascript">
     var windowW = $(window).width(),windowH = $(window).height();
     $(window).resize(function(){
@@ -308,7 +333,7 @@
             <input type="hidden" name="wap" value="">
             <input type="hidden" value="" name="trespass" id="trespass">
             <input type="hidden" id="loginType" name="login_type" value="0">
-            <input type="hidden" name="u_id" id="u_id" value="c49b7f3b75380895bac346b2d3a0b209">
+            <input type="hidden" name="u_id" id="u_id" value="2a8e058e2fa7b0f021dde46ef42be8bd">
             
             <div id="account_login_t">
                 <div class="Head_photo">
@@ -348,7 +373,7 @@
 <!--统计-->
 <script type="text/javascript">
     $(function(){
-        $('#wapCountImg').attr('src',"/images/stat.png?username=zhangjk99999&client=wap&url="+encodeURI(window.location.href)+"&t=1641898501&new=1&userid=2161913&uv_id=08f0fb472a94e1b73109afbd4d4a741f&session_id=r4vqcra9ksrofdpur2dnbfjgdv&title="+encodeURI($("title").text()));
+        $('#wapCountImg').attr('src',"/images/stat.png?username=zhangjk99999&client=wap&url="+encodeURI(window.location.href)+"&t=1643437745&new=1&userid=2161913&uv_id=42cc8b31a6c856b3ce8039b6b9a8f038&session_id=bn2r4pjormufaqekp6puauo872&title="+encodeURI($("title").text()));
         //访问时长统计
         setInterval(function(){
                 $('#countTimeImg').attr('src', "/images/count_time.png?t="+Math.random()+"&new=1");

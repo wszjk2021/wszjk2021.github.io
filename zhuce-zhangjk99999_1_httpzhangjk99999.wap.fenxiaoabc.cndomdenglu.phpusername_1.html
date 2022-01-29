@@ -36,7 +36,7 @@
     var AGENT_ID        = '';
     var IS_NEWS_ARTICEL        = parseInt('0');
     var LANGUAGE_TYPE        = parseInt('0');
-    var is_wap_view     = parseInt(1);
+    var is_wap_view     = parseInt(0);
     var show_check     = parseInt(0);
             var use_wxchat_map = 0;
     </script>
@@ -65,7 +65,7 @@
 <link rel="stylesheet" type="text/css" href="static/css/iconfontNew.css">
 <!-- end -->
 <link type="text/css" rel="stylesheet" href="static/css/base_module_style.min.css">
-    <link type="text/css" rel="stylesheet" href="static/css/user_define_css-2161913_0_1641970399_1.css">
+    <link type="text/css" rel="stylesheet" href="static/css/user_define_css-2161913_0_1643437735_1.css">
     <!--NEW-->
     <link rel="stylesheet" type="text/css" href="static/css/weui.css">
     <link rel="stylesheet" type="text/css" href="static/css/jquery-weui.css">
@@ -122,7 +122,7 @@
                                                         <input type="hidden" name="wap" value="1">
                             <input type="hidden" name="tj_tag" value="">
                             <input type="hidden" value="http%3A%2F%2Fzhangjk99999.wap.fenxiaoabc.cn%2Fdom%2Fdenglu.php%3Fusername%3Dzhangjk99999" name="trespass" id="trespass">
-                            <input type="hidden" name="u_id" id="u_id" value="0785ec6e6ceece31ca3d03331b9a87d4">
+                            <input type="hidden" name="u_id" id="u_id" value="b3b32d14e2f41ca1c2ec050affc7f3c3">
                                                         <div class="ev_t_phone_zh">
                                 <script>var param = [{'id':'2340533','type':'1','required':'1', 'regex':'/^\\w{6,18}$/i', 'msg':'用户名格式有误'},{'id':'2340534','type':'1','required':'1', 'regex':'/^\\w{6,16}$/', 'msg':'密码格式有误'},{'id':'2340535','type':'1','required':'1', 'regex':'/^\\w+\\.*\\w*-*\\w+@(\\w+-?\\w+\\.)+[a-zA-Z]{2,8}$/i', 'msg':'邮箱格式有误'},]</script>				<div class="weui-cells__title label_Tit" style="margin-top:0;margin-bottom:0;">&#29992;&#25143;&#21517;<span class="tips">*</span></div>
 				<div class="weui-cells ev_list_data_label">
@@ -256,7 +256,7 @@
   //验证码
   function refreshYzm(obj, iFormId)  {
 	var date = new Date();
-	$(obj).attr("src","/include/captcha/captcha.php?u_id=0785ec6e6ceece31ca3d03331b9a87d4&datete="+ date.getTime());
+	$(obj).attr("src","/include/captcha/captcha.php?u_id=b3b32d14e2f41ca1c2ec050affc7f3c3&datete="+ date.getTime());
   }
   //检查用户名
   function check_username(id){
@@ -894,7 +894,7 @@
 <!--统计-->
 <script type="text/javascript">
     $(function(){
-        $('#wapCountImg').attr('src',"/images/stat.png?username=zhangjk99999&client=wap&url="+encodeURI(window.location.href)+"&t=1641898503&new=1&userid=2161913&uv_id=76a468eb763bfb0c446fbf989923f2c5&session_id=fne41ql4npb2be24epurt6ns5v&title="+encodeURI($("title").text()));
+        $('#wapCountImg').attr('src',"/images/stat.png?username=zhangjk99999&client=wap&url="+encodeURI(window.location.href)+"&t=1643437759&new=1&userid=2161913&uv_id=4ea63631459bf9e5c5197acd18e7e631&session_id=d0ivblhlen47ktlro0ukafg7bo&title="+encodeURI($("title").text()));
         //访问时长统计
         setInterval(function(){
                 $('#countTimeImg').attr('src', "/images/count_time.png?t="+Math.random()+"&new=1");

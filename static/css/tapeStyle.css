@@ -9,6 +9,6 @@
 .tapeCenter .tape_text .tape_icon a.cur{ background: url('../image/tape_end.jpg') no-repeat; background-size: 80px 80px;}
 .tapeAlt .scheduleAlt{display: none; max-width: 640px; position: fixed; left:0; right:0; top:0; bottom:0; margin:0 auto;}
 .tapeAlt .scheduleAlt .bgAlt{position: absolute; left:0; right:0; top:0; bottom:0; background: #000; opacity: 0.5;}
-.tapeAlt .scheduleText{background: url('../image/bg.png'); position: absolute; left:0; right:0; top:50%; height:80px; margin:-40px 10px 0; border-radius: 5px; color:#fff;}
+.tapeAlt .scheduleText{background: url('../image/banner_tit_bg.png'); position: absolute; left:0; right:0; top:50%; height:80px; margin:-40px 10px 0; border-radius: 5px; color:#fff;}
 .tapeAlt .scheduleText .pic{padding:25px 10px 0 10px; display: inline-block; float: left;}
 .tapeAlt .scheduleText em{line-height: 80px; font-size: 16px;}

@@ -850,7 +850,7 @@ a{text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
 .Mo_1017 .MoBody{border-width:0px; border-style:solid;}
 /*.movePicShow .MoBodyC{margin:5px 10px;}*/
 .movePicShow ul li{overflow: hidden; position: relative;}
-.movePicShow .bannerTit{position: absolute; left:0; right:0; bottom:0; z-index: 1; padding:0 10px; height:32px; line-height: 32px; overflow: hidden; text-align: center; color:#fff; background-image: url('../image/bg.png');}
+.movePicShow .bannerTit{position: absolute; left:0; right:0; bottom:0; z-index: 1; padding:0 10px; height:32px; line-height: 32px; overflow: hidden; text-align: center; color:#fff; background-image: url('../image/banner_tit_bg.png');}
 
 
 /**--Mo_1018 basic setting--**/
@@ -2305,7 +2305,7 @@ a{text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
 .tab_chanpin{ width:48.5%}
 .chanpin_div{ width:99%; border:1px solid #EDEDED; margin-bottom:10px; overflow: hidden;}
 .chanpin_div span{ display:block; width:100%; position: relative;}
-.chanpin_div span .tit_date{background: url('../image/bg.png'); width:100%; height:22px; line-height: 22px; overflow: hidden; position: absolute; bottom:0; left:0; color:#fff; text-align: center;}
+.chanpin_div span .tit_date{background: url('../image/banner_tit_bg.png'); width:100%; height:22px; line-height: 22px; overflow: hidden; position: absolute; bottom:0; left:0; color:#fff; text-align: center;}
 .chanpin_div span img{ width:100%; vertical-align:middle; text-align:center}
 .chanpin_div label ,.chanpin_div strong ,.chanpin_div p{ display:block; width:96%; margin:0 auto}
 .chanpin_div label{color:#444444; font-size:1em; line-height:28px; margin-top:10px;}
@@ -2516,7 +2516,7 @@ a{text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
 .Mo_Forum .ev_community_text .ev_hf_div { display: block; width: 100%; }
 .Mo_Forum .ev_community_text .ev_huifu { background: url(../image/Messages.png) no-repeat left; padding-left: 20px; cursor: pointer; background-size: 16px; }
 .Mo_Forum .ev_community_text a { margin-right: 10px; float: right; overflow: hidden; }
-.Mo_Forum .ev_community_text .ev_zan { background: url(../image/zan1.png) no-repeat left; padding-left: 15px; background-size: 14px; }
+.Mo_Forum .ev_community_text .ev_zan { background: url(../image/zan2.png) no-repeat left; padding-left: 15px; background-size: 14px; }
 .Mo_Forum .ev_community_hf { width: 100%; overflow: hidden; border-radius: 0 0 5px 5px; background: #FCFCFC; padding: 5px 0px; }
 .Mo_Forum .ev_community_hf .ev_community_hf_more { width: 93%; line-height: 24px; text-align: left; color: #999; border-top: 1px solid #F5F5F5; margin: 5px auto 0px; }
 .Mo_Forum .ev_community_hf .ev_community_hf_more a { line-height: 24px; float: left; margin-right: 15px; color: #2396b2; }
@@ -2683,7 +2683,7 @@ a{text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
 .Mo_Forum .listOne li .forumInfo{line-height: 22px;}
 .Mo_Forum .listOne li .forumInfo .rightInfo{float: right;}
 .Mo_Forum .listOne li .forumInfo .rightInfo a{margin-left: 8px; padding-left: 18px; display: inline-block;}
-.Mo_Forum .listOne li .forumInfo .rightInfo .infoIcon1{background: url('../image/zan1.png') no-repeat left center; background-size: 14px;}
+.Mo_Forum .listOne li .forumInfo .rightInfo .infoIcon1{background: url('../image/zan2.png') no-repeat left center; background-size: 14px;}
 .Mo_Forum .listOne li .forumInfo .rightInfo .infoIcon2{background: url('../image/Messages.png') no-repeat left center; background-size: 14px;}
 .Mo_Forum .listOne li .forumInfo .leftDate{float: left; padding-left: 20px; background: url('../image/time1.png') no-repeat left center;}
 
@@ -2700,7 +2700,7 @@ a{text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
 .Mo_Forum .listTwo li .forumInfo{line-height: 22px;}
 .Mo_Forum .listTwo li .forumInfo .rightInfo{float: right;}
 .Mo_Forum .listTwo li .forumInfo .rightInfo a{margin-left: 8px; padding-left: 18px; display: inline-block;}
-.Mo_Forum .listTwo li .forumInfo .rightInfo .infoIcon1{background: url('../image/zan1.png') no-repeat left center; background-size: 14px;}
+.Mo_Forum .listTwo li .forumInfo .rightInfo .infoIcon1{background: url('../image/zan2.png') no-repeat left center; background-size: 14px;}
 .Mo_Forum .listTwo li .forumInfo .rightInfo .infoIcon2{background: url('../image/Messages.png') no-repeat left center; background-size: 14px;}
 .Mo_Forum .listTwo li .forumInfo .leftDate{float: left; padding-left: 20px; background: url('../image/time1.png') no-repeat left center;}
 
@@ -2714,7 +2714,7 @@ a{text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
 .Mo_Forum .listThree li .forumInfo{line-height: 22px;}
 .Mo_Forum .listThree li .forumInfo .rightInfo{float: right;}
 .Mo_Forum .listThree li .forumInfo .rightInfo a{margin-left: 8px; padding-left: 18px; display: inline-block;}
-.Mo_Forum .listThree li .forumInfo .rightInfo .infoIcon1{background: url('../image/zan1.png') no-repeat left center; background-size: 14px;}
+.Mo_Forum .listThree li .forumInfo .rightInfo .infoIcon1{background: url('../image/zan2.png') no-repeat left center; background-size: 14px;}
 .Mo_Forum .listThree li .forumInfo .rightInfo .infoIcon2{background: url('../image/Messages.png') no-repeat left center; background-size: 14px;}
 .Mo_Forum .listThree li .forumInfo .leftDate{float: left; padding-left: 20px; background: url('../image/time1.png') no-repeat left center;}
 .Mo_Forum .listThree li dl{margin-bottom: 5px; overflow: hidden;}
@@ -3361,7 +3361,7 @@ a{text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
 .Mo_Forum .Three_div p{ display:block; width:31.33%; margin-right:2%; float:left; overflow:hidden;}
 .Mo_Forum .Three_div p label{ display:block; width:100%; overflow:hidden; margin-bottom:10px;}
 .Mo_Forum .Three_div p label img{width:initial; height:100%;}
-.Mo_Forum .Three_div em{position: absolute; right:0; bottom:0; padding:0 10px; background:url('../image/bg.png'); color:#fff;}
+.Mo_Forum .Three_div em{position: absolute; right:0; bottom:0; padding:0 10px; background:url('../image/banner_tit_bg.png'); color:#fff;}
 .Mo_Forum .icon_a{ width:100%; overflow:hidden; margin-top:0px;}
 .Mo_Forum .icon_a a{ float:right; margin-left:15px; overflow:hidden}
 .Mo_Forum .icon_a a i{color:#888; float:left}
@@ -3542,7 +3542,7 @@ a{text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
 
 /*举报*/
 .reportAlt{position: fixed; bottom: 50px; right:10px; z-index: 999;}
-.reportAlt a{ background:url('../image/bg.png'); display: inline-block; width:65px; height:25px; line-height: 25px; text-align: center; color:#fff; overflow: hidden; border-radius: 5em;}
+.reportAlt a{ background:url('../image/banner_tit_bg.png'); display: inline-block; width:65px; height:25px; line-height: 25px; text-align: center; color:#fff; overflow: hidden; border-radius: 5em;}
 
 /* 行业o2o */
 .Mo_O2o .o2o_list1 ul li { margin-bottom: 10px; background: #fff; border:0;}

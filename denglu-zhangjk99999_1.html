@@ -36,7 +36,7 @@
     var AGENT_ID        = '';
     var IS_NEWS_ARTICEL        = parseInt('0');
     var LANGUAGE_TYPE        = parseInt('0');
-    var is_wap_view     = parseInt(1);
+    var is_wap_view     = parseInt(0);
     var show_check     = parseInt(0);
             var use_wxchat_map = 0;
     </script>
@@ -65,7 +65,7 @@
 <link rel="stylesheet" type="text/css" href="static/css/iconfontNew.css">
 <!-- end -->
 <link type="text/css" rel="stylesheet" href="static/css/base_module_style.min.css">
-    <link type="text/css" rel="stylesheet" href="static/css/user_define_css-2161913_0_1641970399_1.css">
+    <link type="text/css" rel="stylesheet" href="static/css/user_define_css-2161913_0_1643437735_1.css">
 <link rel="stylesheet" type="text/css" href="static/css/weui.css">
 <link rel="stylesheet" type="text/css" href="static/css/jquery-weui.css">
 <!-- UI拓展插件JS -->
@@ -87,7 +87,7 @@
     			<input type="hidden" name="wap" value="1">
     			<input type="hidden" value="http://zhangjk99999.wap.fenxiaoabc.cn/dom/denglu.php?username=zhangjk99999&wap=1" name="trespass" id="trespass">
     			<input type="hidden" id="loginType" name="login_type" value="0">
-    			<input type="hidden" name="u_id" id="u_id" value="7b2aa4f8857174f9ae935625b1bb26ee">
+    			<input type="hidden" name="u_id" id="u_id" value="0e45aa4830861ee6bea310f2cbebb30a">
     			                <!-- 账号登录 -->
                 <div id="account_login_t">
     	            <div class="Head_photo">
@@ -99,7 +99,7 @@
     	            </div>
     	            <!-- <div class="ev_empy"><p id="login_name_msg" class="hint"></p></div> -->
     	            <div class="border_div" style="border-bottom: 1px solid #f3f3f3;">
-    	            	<input type="password" name="login_pwd" id="login_pwd" placeholder="&#23494;&#30721;">
+    	            	<input type="password" name="login_pwd" id="login_pwd" placeholder="密码">
     	                <!-- <a href="/dom/get_password.php?username=zhangjk99999&wap=1">找回密码</a> -->
     	            </div>
     	            <!-- <div class="ev_empy"><p id="login_pwd_msg" class="hint"></p></div> -->
@@ -154,7 +154,7 @@ function android_wx_login(url){
 
 function getVcode2(){
   var date=new Date();
-  document.getElementById("vCodesrc").src="/include/captcha/captcha.php?datete="+date.getTime()+"&u_id=7b2aa4f8857174f9ae935625b1bb26ee";
+  document.getElementById("vCodesrc").src="/include/captcha/captcha.php?datete="+date.getTime()+"&u_id=0e45aa4830861ee6bea310f2cbebb30a";
 }
 </script>
 
